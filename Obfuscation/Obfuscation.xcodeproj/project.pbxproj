@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342C09611DDB13E20089579E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C09601DDB13E20089579E /* Constants.swift */; };
 		34D0020B1DDB1239009640A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0020A1DDB1239009640A5 /* AppDelegate.swift */; };
 		34D0020D1DDB1239009640A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0020C1DDB1239009640A5 /* ViewController.swift */; };
 		34D002101DDB1239009640A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D0020E1DDB1239009640A5 /* Main.storyboard */; };
 		34D002121DDB1239009640A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D002111DDB1239009640A5 /* Assets.xcassets */; };
 		34D002151DDB1239009640A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D002131DDB1239009640A5 /* LaunchScreen.storyboard */; };
+		DA059EE7A6501A66ABD1DB82 /* Pods_Obfuscation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3447410E9D8EF8D580C1DF93 /* Pods_Obfuscation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342C09601DDB13E20089579E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3447410E9D8EF8D580C1DF93 /* Pods_Obfuscation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Obfuscation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D002071DDB1239009640A5 /* Obfuscation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obfuscation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D0020A1DDB1239009640A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34D0020C1DDB1239009640A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		34D002111DDB1239009640A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34D002141DDB1239009640A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D002161DDB1239009640A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42495269B0EC32EEB0EEEF1B /* Pods-Obfuscation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obfuscation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Obfuscation/Pods-Obfuscation.release.xcconfig"; sourceTree = "<group>"; };
+		8294E664435CABEC302EB833 /* Pods-Obfuscation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obfuscation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Obfuscation/Pods-Obfuscation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA059EE7A6501A66ABD1DB82 /* Pods_Obfuscation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FF02E0DFCBAA1A05F60AF7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8294E664435CABEC302EB833 /* Pods-Obfuscation.debug.xcconfig */,
+				42495269B0EC32EEB0EEEF1B /* Pods-Obfuscation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34D001FE1DDB1239009640A5 = {
 			isa = PBXGroup;
 			children = (
 				34D002091DDB1239009640A5 /* Obfuscation */,
 				34D002081DDB1239009640A5 /* Products */,
+				2FF02E0DFCBAA1A05F60AF7C /* Pods */,
+				590F8E4EF5ED2791EFD62D48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,17 @@
 				34D002111DDB1239009640A5 /* Assets.xcassets */,
 				34D002131DDB1239009640A5 /* LaunchScreen.storyboard */,
 				34D002161DDB1239009640A5 /* Info.plist */,
+				342C09601DDB13E20089579E /* Constants.swift */,
 			);
 			path = Obfuscation;
+			sourceTree = "<group>";
+		};
+		590F8E4EF5ED2791EFD62D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3447410E9D8EF8D580C1DF93 /* Pods_Obfuscation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34D002191DDB1239009640A5 /* Build configuration list for PBXNativeTarget "Obfuscation" */;
 			buildPhases = (
+				ED34EC0B0CF456A899CC7EB0 /* [CP] Check Pods Manifest.lock */,
 				34D002031DDB1239009640A5 /* Sources */,
 				34D002041DDB1239009640A5 /* Frameworks */,
 				34D002051DDB1239009640A5 /* Resources */,
+				D8A940E817B23391890E796D /* [CP] Embed Pods Frameworks */,
+				2172BD7C046DAC3828655C62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +127,7 @@
 					34D002061DDB1239009640A5 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = A8GM57A6DQ;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2172BD7C046DAC3828655C62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obfuscation/Pods-Obfuscation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A940E817B23391890E796D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obfuscation/Pods-Obfuscation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED34EC0B0CF456A899CC7EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34D002031DDB1239009640A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +218,7 @@
 			files = (
 				34D0020D1DDB1239009640A5 /* ViewController.swift in Sources */,
 				34D0020B1DDB1239009640A5 /* AppDelegate.swift in Sources */,
+				342C09611DDB13E20089579E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +339,7 @@
 		};
 		34D0021A1DDB1239009640A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8294E664435CABEC302EB833 /* Pods-Obfuscation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8GM57A6DQ;
@@ -272,6 +353,7 @@
 		};
 		34D0021B1DDB1239009640A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42495269B0EC32EEB0EEEF1B /* Pods-Obfuscation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8GM57A6DQ;
@@ -302,6 +384,7 @@
 				34D0021B1DDB1239009640A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

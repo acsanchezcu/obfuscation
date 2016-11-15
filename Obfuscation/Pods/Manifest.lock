@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Obfuscator (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Obfuscator (~> 2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Obfuscator: 9573f662415f048c1de91f99aa10626dd50e5007
+
+PODFILE CHECKSUM: 7b58556127e94417cddd781013e5bf4c2cce3236
+
+COCOAPODS: 1.0.1

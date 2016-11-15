@@ -1,0 +1,6 @@
+framework module Pods_Obfuscation {
+  umbrella header "Pods-Obfuscation-umbrella.h"
+
+  export *
+  module * { export * }
+}

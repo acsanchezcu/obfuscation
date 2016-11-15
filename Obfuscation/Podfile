@@ -4,5 +4,5 @@ use_frameworks!
 
 target "Obfuscation" do
 	pod 'Alamofire', '~> 4.0'
-	pod 'Obfuscator', '~> 2.0'
+	pod 'Obfuscator', :git => 'https://github.com/pjebs/Obfuscator-iOS.git', :branch => 'master'
 end

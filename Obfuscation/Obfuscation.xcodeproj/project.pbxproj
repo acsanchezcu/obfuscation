@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		342C09611DDB13E20089579E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C09601DDB13E20089579E /* Constants.swift */; };
+		348EAB681DDB913600422AB7 /* ObfuscationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348EAB671DDB913600422AB7 /* ObfuscationManager.swift */; };
 		34D0020B1DDB1239009640A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0020A1DDB1239009640A5 /* AppDelegate.swift */; };
 		34D0020D1DDB1239009640A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0020C1DDB1239009640A5 /* ViewController.swift */; };
 		34D002101DDB1239009640A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D0020E1DDB1239009640A5 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		342C09601DDB13E20089579E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3447410E9D8EF8D580C1DF93 /* Pods_Obfuscation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Obfuscation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		348EAB671DDB913600422AB7 /* ObfuscationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObfuscationManager.swift; sourceTree = "<group>"; };
 		34D002071DDB1239009640A5 /* Obfuscation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obfuscation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D0020A1DDB1239009640A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34D0020C1DDB1239009640A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				34D002131DDB1239009640A5 /* LaunchScreen.storyboard */,
 				34D002161DDB1239009640A5 /* Info.plist */,
 				342C09601DDB13E20089579E /* Constants.swift */,
+				348EAB671DDB913600422AB7 /* ObfuscationManager.swift */,
 			);
 			path = Obfuscation;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				34D0020D1DDB1239009640A5 /* ViewController.swift in Sources */,
 				34D0020B1DDB1239009640A5 /* AppDelegate.swift in Sources */,
 				342C09611DDB13E20089579E /* Constants.swift in Sources */,
+				348EAB681DDB913600422AB7 /* ObfuscationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +346,7 @@
 			baseConfigurationReference = 8294E664435CABEC302EB833 /* Pods-Obfuscation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = A8GM57A6DQ;
 				INFOPLIST_FILE = Obfuscation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -356,6 +361,7 @@
 			baseConfigurationReference = 42495269B0EC32EEB0EEEF1B /* Pods-Obfuscation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = A8GM57A6DQ;
 				INFOPLIST_FILE = Obfuscation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -4,12 +4,22 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
-  - Obfuscator (~> 2.0)
+  - Obfuscator (from `https://github.com/pjebs/Obfuscator-iOS.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Obfuscator:
+    :branch: master
+    :git: https://github.com/pjebs/Obfuscator-iOS.git
+
+CHECKOUT OPTIONS:
+  Obfuscator:
+    :commit: 29eba9d708243d6e7e0750a47c866e0367ed17bd
+    :git: https://github.com/pjebs/Obfuscator-iOS.git
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
-  Obfuscator: 9573f662415f048c1de91f99aa10626dd50e5007
+  Obfuscator: 3b607cc2feceb5675be37f3e5d80d54a813495c9
 
-PODFILE CHECKSUM: 7b58556127e94417cddd781013e5bf4c2cce3236
+PODFILE CHECKSUM: 7da0cbc389089e0535c1301ecc7a053754eaa89d
 
 COCOAPODS: 1.0.1
